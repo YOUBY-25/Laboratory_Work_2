@@ -1,0 +1,17 @@
+TASK 2 - KD-TREE EXPERIMENT RESULTS
+======================================================================
+
+Number of points: 10000
+Number of test points: 100
+Number of measurements: 10
+Number of clusters: 20
+Points per cluster: 500
+Cluster standard deviation: 30
+
+Dataset        Build Time (s)      KDTree Query (s)    Naive Query (s)     
+---------------------------------------------------------------------------
+Uniform        0.00209690          0.00122721          0.01248062          
+Clustered      0.00193390          0.00143876          0.01193929          
+
+Uniform KD-Tree speedup: 10.17x
+Clustered KD-Tree speedup: 8.30x
